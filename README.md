@@ -51,29 +51,7 @@ Tools:
 - Local Dataset (not uploaded)
 - trainer/ directory for model files
 
-
- 3. PROJECT STRUCTURE
-
-
-project/
-│
-├── data/                       # Face images (not uploaded)
-├── trainer/
-│   ├── trainer.npy
-│   ├── pca_model.npy
-│   ├── lda_model.yml
-│   ├── hog_features.npy
-│
-├── detect_faces.py
-├── train_histogram.py
-├── train_pca.py
-├── train_lda.py
-├── train_hog.py
-├── recognize.py
-└── README.md
-
-
- 4. WORKFLOW OVERVIEW
+ 3. WORKFLOW OVERVIEW
 
 
 Camera Input
@@ -89,7 +67,7 @@ Similarity Comparison
 Predicted Person + Confidence Score
 
 
- 5. METHODS (SHORT VERSION)
+ 4. METHODS (SHORT VERSION)
 
 
 PCA (Eigenfaces):
@@ -108,7 +86,7 @@ HOG:
 - Highest accuracy in experiments
 
 
- 6. RESULTS
+ 5. RESULTS
 
 
 Algorithm | Accuracy | Notes
@@ -122,7 +100,7 @@ HOG achieved the highest accuracy and consistency.
 PCA and LDA performed moderately with limitations.
 
 
- 7. RUNNING THE PROJECT
+ 6. RUNNING THE PROJECT
 
 
 # Install dependencies
