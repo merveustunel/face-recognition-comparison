@@ -8,9 +8,9 @@ PCA (Eigenfaces), LDA (Fisherfaces), and HOG (Histogram of Oriented Gradients).
 The study includes real-time face detection, feature extraction, histogram comparison,
 and PCA/LDA/HOG training pipelines using Python & OpenCV.
 
-============================================================
-🇬🇧 1. PROJECT SUMMARY (ENGLISH)
-============================================================
+
+ 1. PROJECT SUMMARY (ENGLISH)
+
 
 This repository contains a full implementation of classical face recognition methods.
 The aim is to analyze PCA, LDA, and HOG based on:
@@ -29,9 +29,9 @@ Included Modules:
 - Confidence score calculation
 - Real-time identification
 
-============================================================
-🇬🇧 2. TECHNOLOGIES USED
-============================================================
+
+ 2. TECHNOLOGIES USED
+
 
 Libraries:
 - OpenCV
@@ -51,9 +51,9 @@ Tools:
 - Local Dataset (not uploaded)
 - trainer/ directory for model files
 
-============================================================
-🇬🇧 3. PROJECT STRUCTURE
-============================================================
+
+ 3. PROJECT STRUCTURE
+
 
 project/
 │
@@ -72,9 +72,9 @@ project/
 ├── recognize.py
 └── README.md
 
-============================================================
-🇬🇧 4. WORKFLOW OVERVIEW
-============================================================
+
+ 4. WORKFLOW OVERVIEW
+
 
 Camera Input
    ↓
@@ -88,9 +88,9 @@ Similarity Comparison
    ↓
 Predicted Person + Confidence Score
 
-============================================================
-🇬🇧 5. METHODS (SHORT VERSION)
-============================================================
+
+ 5. METHODS (SHORT VERSION)
+
 
 PCA (Eigenfaces):
 - Dimensionality reduction
@@ -107,9 +107,9 @@ HOG:
 - Most robust method
 - Highest accuracy in experiments
 
-============================================================
-🇬🇧 6. RESULTS
-============================================================
+
+ 6. RESULTS
+
 
 Algorithm | Accuracy | Notes
 --------- | -------- | -----
@@ -121,9 +121,9 @@ Conclusion:
 HOG achieved the highest accuracy and consistency.
 PCA and LDA performed moderately with limitations.
 
-============================================================
-🇬🇧 7. RUNNING THE PROJECT
-============================================================
+
+ 7. RUNNING THE PROJECT
+
 
 # Install dependencies
 pip install opencv-python numpy pillow
@@ -137,9 +137,9 @@ python train_hog.py
 # Run real-time recognition
 python recognize.py
 
-============================================================
+
 🇹🇷 TÜRKÇE BÖLÜM — YÜZ TANIMA RAPOR ÖZETİ
-============================================================
+
 
 Bu proje, PCA, LDA ve HOG gibi klasik yüz tanıma algoritmalarını incelemekte,
 karşılaştırmakta ve gerçek zamanlı olarak test etmektedir.
@@ -151,9 +151,9 @@ Amaç:
 - Gerçek zamanlı tanıma
 - Algoritma karşılaştırması
 
-============================================================
-🇹🇷 KULLANILAN TEKNOLOJİLER
-============================================================
+
+ KULLANILAN TEKNOLOJİLER
+
 
 Kütüphaneler:
 - OpenCV
@@ -173,9 +173,9 @@ Araçlar:
 - Yerel veri seti
 - trainer/ dizini
 
-============================================================
-🇹🇷 YÖNTEM ÖZETİ
-============================================================
+
+ YÖNTEM ÖZETİ
+
 
 Haar Cascade:
 Gerçek zamanlı yüz algılama.
@@ -192,9 +192,9 @@ Sınıflar arası ayrımı maksimize ederek tanıma yapıldı.
 HOG:
 Yüzün kenar/yönelim özelliklerini çıkararak en yüksek doğruluğu sağladı.
 
-============================================================
-🇹🇷 SONUÇLAR
-============================================================
+
+ SONUÇLAR
+
 
 Algoritma | Performans
 --------- | ----------
@@ -205,9 +205,9 @@ LDA       | Düşük doğruluk
 Genel Yorum:
 HOG yöntemi farklı ışık, açı ve ifadelerde en yüksek başarıyı göstermiştir.
 
-============================================================
-🇹🇷 KAYNAKLAR
-============================================================
+
+ KAYNAKLAR
+
 
 Turk & Pentland — PCA  
 Viola & Jones — Haar Cascade  
@@ -216,6 +216,5 @@ Ahonen et al. — LBP
 Krizhevsky et al. — CNN  
 OpenCV Documentation
 
-============================================================
 END OF README
-============================================================
+
